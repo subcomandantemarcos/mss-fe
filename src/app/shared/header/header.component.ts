@@ -1,11 +1,11 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'private',
-  templateUrl: './private.component.html',
-  styleUrls: ['./private.component.scss'],
+  selector: 'app-header',
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class PrivateComponent implements OnInit {
+export class HeaderComponent implements OnInit {
   public ngOnInit(): void {}
 }
