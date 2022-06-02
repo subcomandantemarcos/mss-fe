@@ -1,0 +1,11 @@
+@import 'variables';
+
+:host .nav {display: flex; flex-direction: row; list-style: none; font-family: $font-exo;
+  &-item {margin: 0 15px; font-size: $font-size-smallest; font-weight: 700;
+    &-link {line-height: 48px; text-transform: uppercase; transition: all 0.3s ease; text-decoration: none;
+      color: $white;
+
+      &:focus, &:hover {color: $green;}
+    }
+  }
+}
